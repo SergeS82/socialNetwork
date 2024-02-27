@@ -6,7 +6,7 @@ import lombok.*;
 
 @Data @AllArgsConstructor @NoArgsConstructor @Builder
 @Entity
-@Table(name = "subscription")
+@Table(name = "subscription", schema = "sn")
 public class Subscription {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
