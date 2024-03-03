@@ -20,6 +20,14 @@ public class Author {
     private String firstName;
     @Column(name = "last_name")
     private String lastName;
+    @Column(name="mail")
+    private String mail;
+    @Column(name="phone")
+    private String phone;
+    @Column(name = "sex")
+    private Character sex;
+    @Column(name = "city")
+    String city;
     @OneToMany(mappedBy = "author", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     private List<Post> posts;
 }

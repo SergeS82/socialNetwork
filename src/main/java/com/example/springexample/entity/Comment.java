@@ -28,6 +28,9 @@ public class Comment {
     @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "author")
     private Author author;
+    @ManyToOne(fetch = FetchType.EAGER)
+    @JoinColumn(name = "post")
+    private Post post;
     @CreationTimestamp
     @Column(name = "creation_time")
     private LocalDateTime time;

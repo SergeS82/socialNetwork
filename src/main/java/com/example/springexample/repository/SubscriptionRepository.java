@@ -1,6 +1,5 @@
 package com.example.springexample.repository;
 
-
 import com.example.springexample.entity.Author;
 import com.example.springexample.entity.Subscription;
 import org.springframework.data.domain.Pageable;
