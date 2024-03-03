@@ -9,4 +9,8 @@ public class AuthorDto {
     private Integer id;
     private String firstName;
     private String lastName;
+    private String mail;
+    private String phone;
+    private Character sex;
+    private String city;
 }

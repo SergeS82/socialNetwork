@@ -31,10 +31,13 @@ public class AuthorCRUDService implements CRUDService<AuthorDto> {
     public List<AuthorDto> getTop(Integer item, Integer count) {
         throw new ResponseStatusException(HttpStatus.NOT_ACCEPTABLE);
     }
-
     @Override
     public void create(AuthorDto authorDto) {
+        Author author = mapToEntity(authorDto);
         repository.save(mapToEntity(authorDto));
+    }
+    public Author createAuthor(AuthorDto authorDto) {
+        return repository.save(mapToEntity(authorDto));
     }
 
     @Override
@@ -58,6 +61,9 @@ public class AuthorCRUDService implements CRUDService<AuthorDto> {
                 .id(authorDto.getId())
                 .firstName(authorDto.getFirstName())
                 .lastName(authorDto.getLastName())
+                .mail(authorDto.getMail())
+                .city(authorDto.getCity())
+                .phone(authorDto.getPhone())
                 .build();
     }
 
@@ -66,6 +72,9 @@ public class AuthorCRUDService implements CRUDService<AuthorDto> {
                 .id(author.getId())
                 .firstName(author.getFirstName())
                 .lastName(author.getFirstName())
+                .mail(author.getMail())
+                .city(author.getCity())
+                .phone(author.getPhone())
                 .build();
     }
 }
