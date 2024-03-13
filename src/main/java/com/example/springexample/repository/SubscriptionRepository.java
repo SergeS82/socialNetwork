@@ -9,6 +9,6 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 @Repository
-public interface SubscriptionRepository extends JpaRepository<Subscription,Integer> {
+public interface SubscriptionRepository extends JpaRepository<Subscription,Long> {
     List<Subscription> findByAuthorOrderByIdDesc(Author author, Pageable pageable);
 }

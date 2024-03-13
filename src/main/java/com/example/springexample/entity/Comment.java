@@ -22,7 +22,7 @@ public class Comment {
                                 .. о текущем значении. Менее эфективна и редко используется.
     */
     @Column(name="id")
-    private Integer id;
+    private Long id;
     @Column(name = "text")
     private String text;
     @ManyToOne(fetch = FetchType.EAGER)

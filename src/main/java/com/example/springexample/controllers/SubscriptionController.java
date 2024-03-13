@@ -13,19 +13,19 @@ import java.util.List;
 public class SubscriptionController {
     private final SubscriptionCRUDService service;
     @PostMapping
-    void create(@RequestBody SubscriptionDto subscriptionDto) {
-        service.create(subscriptionDto);
+    SubscriptionDto create(@RequestBody SubscriptionDto subscriptionDto) {
+        return service.createSubscription(subscriptionDto);
     }
     @GetMapping("/{id}")
-    SubscriptionDto getById(@PathVariable Integer id) {
+    SubscriptionDto getById(@PathVariable Long id) {
          return service.getById(id);
     }
     @GetMapping()
-    List<SubscriptionDto> getTopByAuthor(@RequestParam Integer author, @RequestParam(required = false, defaultValue = "10") Integer count) {
+    List<SubscriptionDto> getTopByAuthor(@RequestParam Long author, @RequestParam(required = false, defaultValue = "10") Integer count) {
         return service.getTop(author, count) ;
     }
     @DeleteMapping("/{id}")
-    void delete(@PathVariable Integer id) {
+    void delete(@PathVariable Long id) {
         service.delete(id);
     }
 }
