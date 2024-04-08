@@ -13,7 +13,7 @@ import java.util.List;
 @Entity
 @Table(name = "author", schema = "sn")
 @Where(clause = "is_deleted = false")
-public class Author {
+public class Author implements com.example.springexample.entity.lib.Entity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")

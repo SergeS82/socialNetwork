@@ -6,13 +6,8 @@ import lombok.Data;
 import java.util.Map;
 
 @Data
-public class SubscriptionDto implements Dto<SubscriptionDto> {
+public class SubscriptionDto implements Dto {
     private String id;
     private String author;
     private String subscription;
-
-    @Override
-    public SubscriptionDto fillFromMap(Map<String, String> map) {
-        return null;
-    }
 }

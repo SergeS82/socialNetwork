@@ -50,7 +50,7 @@ public class CreateOperationsControllerTest {
 //    @DisplayName("Загрузка справочника Авторов.")
 //    void createSomeAuthors() throws Exception {
 //        mockMvc = MockMvcBuilders.webAppContextSetup(webApplicationContext).build();
-//        TestEntity<Author, AuthorDto, AuthorRepository> testEntity = new TestEntity<>("/test_data/data.json", Author.class, AuthorDto.class, authorRepository);
+//        TestEntity<Author, AuthorDto, AuthorRepository> testEntity = new TestEntity<>("/test_data/author_data.json", Author.class, AuthorDto.class, authorRepository);
 //        testEntity.clearMapping();
 //        for (Map.Entry<String,List<AuthorDto>> authorDtos : testEntity.getData().entrySet()) {
 //            for (AuthorDto authorDto : authorDtos.getValue()) {

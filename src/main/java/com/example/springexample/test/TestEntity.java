@@ -1,86 +1,135 @@
 package com.example.springexample.test;
 
-import com.example.springexample.dto.AuthorDto;
 import com.example.springexample.dto.lib.Dto;
 import com.example.springexample.dto.lib.DtoIdMixin;
-import com.example.springexample.entity.Author;
-import com.example.springexample.repository.AuthorRepository;
+import com.example.springexample.entity.lib.Entity;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.jetbrains.annotations.NotNull;
+import org.junit.jupiter.api.Assertions;
 import org.springframework.data.repository.CrudRepository;
+import org.springframework.http.MediaType;
+import org.springframework.test.web.servlet.MockMvc;
+import org.springframework.test.web.servlet.ResultActions;
+import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
+import org.springframework.test.web.servlet.setup.MockMvcBuilders;
+import org.springframework.web.context.WebApplicationContext;
 
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.net.URISyntaxException;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.*;
-import java.util.stream.Collectors;
 
-public class TestEntity<N, T extends Dto, U extends CrudRepository<N, Long>> {
-    private File mainDataFile;
-    private File mapperFile;
-    private String dtoClassName;
-    private Class<T> dtoClass;
-    private U repository;
-    private Map<String, String> mapping = new HashMap<>();
-    private ObjectMapper mapper;
-    private ObjectMapper dtoMapper;
-    private Map<String, List<T>> data = new HashMap<>();
+public class TestEntity<N extends Entity, T extends Dto> {
+    private final File mapperFile;
+    private final Map<String, String> mapping = new HashMap<>();
+    private final ObjectMapper mapper;
+    private final ObjectMapper dtoMapper;
+    private final WebApplicationContext webApplicationContext;
+    private final Map<String, Object> data = new LinkedHashMap<>();
+    private HashMap<Class<?>, Map<String, String>> fkMap = new HashMap<>();
 
-    public TestEntity(String pathToResource, @NotNull Class<N> entity, @NotNull Class<T> dtoClass, U repository) throws URISyntaxException, IOException {
+    public TestEntity(String pathToResource, @NotNull Class<T> dtoClass, @NotNull CrudRepository<N, Long> repository, @NotNull WebApplicationContext webApplicationContext) throws IOException, InvocationTargetException, NoSuchMethodException, InstantiationException, IllegalAccessException, URISyntaxException {
+        this.webApplicationContext = webApplicationContext;
         this.mapper = new ObjectMapper();
         this.dtoMapper = new ObjectMapper().addMixIn(dtoClass, DtoIdMixin.class);
-        this.dtoClass = dtoClass;
-        this.repository = repository;
+        String dtoClassName = dtoClass.getSimpleName();
         pathToResource = Optional.ofNullable(pathToResource).orElse("/test_data/data.json");
-        String pathToMapper = "/test_data/"+dtoClass.getSimpleName()+".json";
-        this.mainDataFile = new File(Paths.get(getClass().getResource(pathToResource).toURI()).toRealPath().toString());
-        this.mapperFile = new File(this.mainDataFile.toPath().toRealPath().toString()+"_");
-        this.dtoClassName = this.dtoClass.getSimpleName();
-        //int lastIndex = dtoClassName.lastIndexOf('.');
-        //this.dtoClassName = this.dtoClassName.substring(lastIndex + 1);
+        File mainDataFile = new File(Paths.get(getClass().getResource(pathToResource).toURI()).toRealPath().toString());
+        Path pathToMapper = mainDataFile.toPath().toRealPath().getParent();
+        pathToMapper = pathToMapper.resolve(dtoClassName + "_mapper.json");
+        this.mapperFile = new File(pathToMapper.toUri());
+        //ToDo jsonMapper заменить на mapper
         ObjectMapper jsonMapper = new ObjectMapper();
         JsonNode rootNode = jsonMapper.readTree(mainDataFile);
         JsonNode targetNode = rootNode.path(dtoClassName);
         if (targetNode.isMissingNode()) {
-            throw new IllegalStateException(String.format("Файл %s не содержит данные в узле %s",mainDataFile.getName(), dtoClass));
+            throw new IllegalStateException(String.format("Файл %s не содержит данные в узле %s", mainDataFile.getName(), dtoClass));
         }
-        Map<String, List<Map<String, String>>> rows = jsonMapper.readValue(targetNode.toString(), Map.class);
-        // преобразовал List<Map<String, String>> в List<T>
-        data = rows.entrySet().stream().collect(Collectors.toMap(Map.Entry::getKey, entry -> entry.getValue().stream().map(
-                v ->  {
-                    T dto = null;
-                    try {
-                        Constructor<T> constructor = dtoClass.getConstructor();
-                        dto = constructor.newInstance();
-                        dto.fillFromMap(v);
-                    } catch (NoSuchMethodException | IllegalAccessException | InstantiationException | InvocationTargetException e) {
-                        e.printStackTrace();
-                    }
-                    return dto;
-                }
-                ).collect(Collectors.toList())));
+        ReadJson<T> readJson = new ReadJson<>();
+        readJson.iterate(targetNode, data, "id", dtoClass);
+        //System.out.println(rows);
     }
 
+    private <K, V> V putAndReturnValue(Map<K, V> map, K key, V value) {
+        map.put(key, value);
+        return value;
+    }
 
+    private Map<String, String> mapingByClass(Class<?> fkClass) throws IOException {
+        Path path = mapperFile.toPath().getParent().resolve(fkClass.getSimpleName() + "_mapper.json");
+        File file = new File(path.toUri());
+        Map<String, String> result = mapper.readValue(file, Map.class);
+        return result;
+    }
 
+    public void postAll(String url) throws IOException, IllegalAccessException {
+        clearMapping();
+        MockMvc mockMvc = MockMvcBuilders.webAppContextSetup(webApplicationContext).build();
+        for (var root : data.entrySet()) { //SubscriptionDto
+            for (var command : castToList(root.getValue())) { //array
+                for (var requests : castToMap(command).entrySet()) { //POST
+                    if (!requests.getKey().equals("POST")) { continue; }
+                    for (var request : castToMap(requests.getValue()).entrySet()) { //200
+                        for (T dto : castToListT(request.getValue())) {//Dto
+                            var oldId = dto.getId();
+                            String inContent = makeInContent(dto);
+                            ResultActions resultActions = null;
+                            try {
+                                resultActions = mockMvc.perform(MockMvcRequestBuilders
+                                        .post(url)
+                                        .contentType(MediaType.APPLICATION_JSON)
+                                        .content(inContent));
+                                String outContent = resultActions.andReturn().getResponse().getContentAsString(StandardCharsets.UTF_8);
+                                String newId = getNewId(outContent);
+                                addMapping(oldId, newId);
+                            } catch (Exception ex) {
+                            } finally {
+                                Assertions.assertEquals(request.getKey(), (resultActions != null) ? String.valueOf(resultActions.andReturn().getResponse().getStatus()) : "000");
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        writeMapperToFile();
+    }
+    @SuppressWarnings("unchecked")
+    private Map<String, Object> castToMap(Object obj) {
+        if (obj instanceof Map<?, ?>) {
+            return (Map<String, Object>) obj;
+        } else {
+            throw new ClassCastException("Object can't be cast to Map<String, Object>");
+        }
+    }
 
-    public static void main(String[] args) throws URISyntaxException, IOException {
-        AuthorRepository authorRepository = null;
-        TestEntity<? extends Author, AuthorDto, CrudRepository<Author, Long>> testEntity = new TestEntity<>(null, Author.class, AuthorDto.class, authorRepository);
+    @SuppressWarnings("unchecked")
+    private List<Object> castToList(Object obj) {
+        return (List<Object>) obj;
+    }
+
+    @SuppressWarnings("unchecked")
+    private List<T> castToListT(Object obj) {
+        return (List<T>) obj;
     }
 
     public void clearMapping() {
         mapping.clear();
-    };
+    }
+
+    ;
 
     public void addMapping(String oldId, String newId) {
         mapping.put(oldId, newId);
     }
+
     public void writeMapperToFile() throws IOException {
         mapper.writeValue(mapperFile, mapping);
     }
@@ -94,7 +143,29 @@ public class TestEntity<N, T extends Dto, U extends CrudRepository<N, Long>> {
         return mapper.readTree(outContent).get("id").asText();
     }
 
-    public String makeInContent(T dto) throws JsonProcessingException {
+    public String makeInContent(T dto) throws IOException, IllegalAccessException {
+        //ToDo пройти по полям dto объекта и если значение начинается с fk-, то заменить на соответсвующий ключ из мапинга
+        Field[] fields = dto.getClass().getDeclaredFields();
+        for (Field field : fields) {
+            field.setAccessible(true);
+            String value = field.get(dto).toString();
+            if (value.startsWith("fk-")) {
+                String[] split = value.split("-");
+                String fkClassName = "com.example.springexample.dto." + split[1];
+                Class<?> fkClass = null;
+                try {
+                    fkClass = Class.forName(fkClassName);
+                } catch (ClassNotFoundException e) {
+                    throw new ClassCastException("Не найден класс: "+fkClassName);
+                }
+                var mapping = Optional.ofNullable(fkMap.get(fkClass)).orElse(putAndReturnValue(fkMap, fkClass, mapingByClass(fkClass)));
+                if (mapping == null) {
+                    throw new FileNotFoundException("Не найден файл " + fkClass.getSimpleName() + "_mapper.json");
+                }
+                // запись результата
+                field.set(dto, mapping.get(split[2]));
+            }
+        }
         return dtoMapper.writeValueAsString(dto);
     }
 
@@ -102,7 +173,7 @@ public class TestEntity<N, T extends Dto, U extends CrudRepository<N, Long>> {
         return mapping;
     }
 
-    public Map<String, List<T>> getData() {
+    public Map<String, Object> getData() {
         return data;
     }
 }

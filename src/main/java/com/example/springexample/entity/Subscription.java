@@ -7,7 +7,7 @@ import lombok.*;
 @Data @AllArgsConstructor @NoArgsConstructor @Builder
 @Entity
 @Table(name = "subscription", schema = "sn")
-public class Subscription {
+public class Subscription implements com.example.springexample.entity.lib.Entity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
