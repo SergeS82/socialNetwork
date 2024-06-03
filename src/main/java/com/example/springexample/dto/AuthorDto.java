@@ -4,7 +4,6 @@ import com.example.springexample.dto.lib.Dto;
 import lombok.Data;
 
 import java.util.Map;
-
 //@Builder не получится использовать т.к. json сериализация ломается
 @Data
 public class AuthorDto implements Dto {
@@ -15,6 +14,4 @@ public class AuthorDto implements Dto {
     private String phone;
     private Character sex;
     private String city;
-
-
 }

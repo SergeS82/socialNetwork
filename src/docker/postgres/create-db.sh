@@ -17,65 +17,65 @@ CREATE USER super WITH PASSWORD 'super';
 GRANT ALL PRIVILEGES ON DATABASE socialnetwork TO super;
 -- Пользователи
 CREATE TABLE sn.author (
-	id serial4 NOT NULL,
-	rating int8 NULL,
+	is_deleted bool NULL,
+	sex bpchar(1) NULL,
+	id bigserial NOT NULL,
+	city varchar(255) NULL,
 	first_name varchar(255) NULL,
 	last_name varchar(255) NULL,
+	mail varchar(255) NULL,
+	phone varchar(255) NULL,
 	CONSTRAINT author_pkey PRIMARY KEY (id)
 );
+ALTER TABLE sn.author
+ADD CONSTRAINT author_mail
+CHECK (mail ~* '^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$');
 -- Подписки
 CREATE TABLE sn."subscription" (
-	id serial4 NOT NULL,
-    author int4 NULL,	
-	"subscription" int4 NULL,
-	CONSTRAINT subscription_pkey PRIMARY KEY (id)
+	author int8 NULL,
+	id bigserial NOT NULL,
+	"subscription" int8 NULL,
+	CONSTRAINT subscription_pkey PRIMARY KEY (id),
+	CONSTRAINT subscription_fk1 FOREIGN KEY ("subscription") REFERENCES sn.author(id),
+	CONSTRAINT subscription_fk2 FOREIGN KEY (author) REFERENCES sn.author(id)
 );
-ALTER TABLE sn."subscription" ADD CONSTRAINT subscription_fk1 FOREIGN KEY ("subscription") REFERENCES sn.author(id);
-ALTER TABLE sn."subscription" ADD CONSTRAINT subscription_fk2 FOREIGN KEY (author) REFERENCES sn.author(id);
 -- Посты
 CREATE TABLE sn.post (
-	id serial4 NOT NULL,
-    author int4 NULL,	
+	author int8 NULL,
+	id bigserial NOT NULL,
 	caption varchar(255) NULL,
 	"text" varchar(255) NULL,
-	CONSTRAINT post_pkey PRIMARY KEY (id)
+	CONSTRAINT post_pkey PRIMARY KEY (id),
+	CONSTRAINT post_fk1 FOREIGN KEY (author) REFERENCES sn.author(id)
 );
-ALTER TABLE sn.post ADD CONSTRAINT post_fk1 FOREIGN KEY (author) REFERENCES sn.author(id);
 -- Комментарии
 CREATE TABLE sn."comment" (
-	id serial4 NOT NULL,
-    author int4 NULL,	
+	author int8 NULL,
 	creation_time timestamp(6) NULL,
+	id bigserial NOT NULL,
+	post int8 NULL,
 	"text" varchar(255) NULL,
-	CONSTRAINT comment_pkey PRIMARY KEY (id)
+	CONSTRAINT comment_pkey PRIMARY KEY (id),
+	CONSTRAINT comment_fk1 FOREIGN KEY (post) REFERENCES sn.post(id),
+	CONSTRAINT comment_fk2 FOREIGN KEY (author) REFERENCES sn.author(id)
 );
-ALTER TABLE sn."comment" ADD CONSTRAINT comment_fk1 FOREIGN KEY (author) REFERENCES sn.author(id);
--- Связь комментариев и постов
-CREATE TABLE sn.comments_to_post (
-	"comment" int4 NULL,
-	id serial4 NOT NULL,
-	post int4 NULL,
-	CONSTRAINT comments_to_post_pkey PRIMARY KEY (id)
-);
-ALTER TABLE sn.comments_to_post ADD CONSTRAINT comments_to_post_k1 FOREIGN KEY (post) REFERENCES sn.post(id);
-ALTER TABLE sn.comments_to_post ADD CONSTRAINT comments_to_post_fk2 FOREIGN KEY ("comment") REFERENCES sn."comment"(id);
 -- Лайки на постах
 CREATE TABLE sn.likes_to_post (
-	author int4 NULL,
-	id serial4 NOT NULL,
-	post int4 NULL,
-	CONSTRAINT likes_to_post_pkey PRIMARY KEY (id)
+	author int8 NULL,
+	id bigserial NOT NULL,
+	post int8 NULL,
+	CONSTRAINT likes_to_post_pkey PRIMARY KEY (id),
+	CONSTRAINT likes_to_post_fk1 FOREIGN KEY (post) REFERENCES sn.post(id),
+	CONSTRAINT likes_to_post_fk2 FOREIGN KEY (author) REFERENCES sn.author(id)
 );
-ALTER TABLE sn.likes_to_post ADD CONSTRAINT likes_to_post_pkey_fk1 FOREIGN KEY (post) REFERENCES sn.post(id);
-ALTER TABLE sn.likes_to_post ADD CONSTRAINT likes_to_post_pkey_fk2 FOREIGN KEY (author) REFERENCES sn.author(id);
 -- Лайки на комментариях
 CREATE TABLE sn.likes_to_comment (
-	author int4 NULL,
-	"comment" int4 NULL,
-	id serial4 NOT NULL,
-	CONSTRAINT likes_to_comment_pkey PRIMARY KEY (id)
+	author int8 NULL,
+	"comment" int8 NULL,
+	id bigserial NOT NULL,
+	CONSTRAINT likes_to_comment_pkey PRIMARY KEY (id),
+	CONSTRAINT fkprk999ldaf682j2s9y49rgu8 FOREIGN KEY (author) REFERENCES sn.author(id),
+	CONSTRAINT fkt0pdbl2383u99gt7bm9bhorkv FOREIGN KEY ("comment") REFERENCES sn."comment"(id)
 );
-ALTER TABLE sn.likes_to_comment ADD CONSTRAINT likes_to_post_pkey_fk1 FOREIGN KEY (author) REFERENCES sn.author(id);
-ALTER TABLE sn.likes_to_comment ADD CONSTRAINT likes_to_post_pkey_fk2 FOREIGN KEY ("comment") REFERENCES sn."comment"(id);
 EOSQL
 echo "Database, schema, and table have been created successfully."
