@@ -9371,3 +9371,1262 @@ Caused by: org.hibernate.tool.schema.spi.SchemaManagementException: Schema-valid
 20119 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
 20119 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 20140 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+1466 [main] INFO  c.e.s.SpringExampleApplication - Starting SpringExampleApplication using Java 18 with PID 19356 (C:\Users\79778\OneDrive\Рабочий стол\проект\socialNetwork\target\classes started by 79778 in C:\Users\79778\OneDrive\Рабочий стол\проект\socialNetwork)
+1466 [main] INFO  c.e.s.SpringExampleApplication - No active profile set, falling back to 1 default profile: "default"
+2583 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2708 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 105 ms. Found 3 JPA repository interfaces.
+3714 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+3714 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+3730 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+3730 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+3903 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+3903 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2356 ms
+4154 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+4302 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.6.Final
+4311 [main] INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+4578 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+4802 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+4829 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+5225 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@28367da7
+5225 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+5904 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+7310 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+7735 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+8334 [main] INFO  o.s.d.j.r.q.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+9152 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+9764 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+9843 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+9858 [main] INFO  c.e.s.SpringExampleApplication - Started SpringExampleApplication in 9.052 seconds (process running for 10.953)
+9858 [main] INFO  c.e.s.SpringExampleApplication - log info
+13899 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+13915 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+13926 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+335  [main] INFO  o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+351  [main] INFO  o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+556  [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.springexample.controllers.IntegrationTest]: IntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+824  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.springexample.SpringExampleApplication for test class com.example.springexample.controllers.IntegrationTest
+1435 [main] INFO  c.e.s.controllers.IntegrationTest - Starting IntegrationTest using Java 18 with PID 28340 (started by 79778 in C:\Users\79778\OneDrive\Рабочий стол\проект\socialNetwork)
+1435 [main] INFO  c.e.s.controllers.IntegrationTest - No active profile set, falling back to 1 default profile: "default"
+2514 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2638 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 106 ms. Found 3 JPA repository interfaces.
+3439 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+3565 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.6.Final
+3580 [main] INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+3801 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+4052 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+4099 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+4732 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@18d30e7
+4732 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+5620 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+7520 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+7629 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+8109 [main] INFO  o.s.d.j.r.q.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+9577 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+10081 [main] INFO  c.e.s.controllers.IntegrationTest - Started IntegrationTest in 9.03 seconds (process running for 11.142)
+10081 [main] INFO  c.e.s.SpringExampleApplication - log info
+10993 [main] INFO  o.t.d.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+11375 [main] INFO  o.t.d.DockerClientProviderStrategy - Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+11375 [main] INFO  o.t.DockerClientFactory - Docker host IP address is localhost
+11415 [main] INFO  o.t.DockerClientFactory - Connected to docker: 
+  Server Version: 26.1.1
+  API Version: 1.45
+  Operating System: Docker Desktop
+  Total Memory: 7880 MB
+11456 [main] INFO  tc.testcontainers/ryuk:0.6.0 - Creating container for image: testcontainers/ryuk:0.6.0
+11824 [main] INFO  tc.testcontainers/ryuk:0.6.0 - Container testcontainers/ryuk:0.6.0 is starting: 2ae511babdb53679bdf658ceb7205df47f66251fc169e0ea5aae8eb51fb4ccda
+12712 [main] INFO  tc.testcontainers/ryuk:0.6.0 - Container testcontainers/ryuk:0.6.0 started in PT1.2558535S
+12720 [main] INFO  o.t.utility.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+12720 [main] INFO  o.t.DockerClientFactory - Checking the system...
+12721 [main] INFO  o.t.DockerClientFactory - ?? Docker server version should be at least 1.6.0
+12721 [main] INFO  tc.sergs82/socialnetwork-db:latest - Creating container for image: sergs82/socialnetwork-db:latest
+12804 [main] INFO  tc.sergs82/socialnetwork-db:latest - Container sergs82/socialnetwork-db:latest is starting: 40b63433177e781821a0da9bc1b040097e7e3e3c3eb347b5c08eccf74c26e46e
+15716 [main] INFO  tc.sergs82/socialnetwork-db:latest - Container sergs82/socialnetwork-db:latest started in PT2.994459S
+15721 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+15721 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+15723 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+15753 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+15756 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15770 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+346  [main] INFO  o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+364  [main] INFO  o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+581  [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.springexample.controllers.IntegrationTest]: IntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+739  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.springexample.SpringExampleApplication for test class com.example.springexample.controllers.IntegrationTest
+1322 [main] INFO  c.e.s.controllers.IntegrationTest - Starting IntegrationTest using Java 18 with PID 1756 (started by 79778 in C:\Users\79778\OneDrive\Рабочий стол\проект\socialNetwork)
+1322 [main] INFO  c.e.s.controllers.IntegrationTest - No active profile set, falling back to 1 default profile: "default"
+2458 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2584 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 109 ms. Found 3 JPA repository interfaces.
+3417 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+3543 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.6.Final
+3543 [main] INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+3953 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+4440 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+4505 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+5057 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3b8507df
+5069 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+5835 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+7392 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+7599 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+8131 [main] INFO  o.s.d.j.r.q.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+9183 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+9766 [main] INFO  c.e.s.controllers.IntegrationTest - Started IntegrationTest in 8.816 seconds (process running for 10.713)
+9766 [main] INFO  c.e.s.SpringExampleApplication - log info
+10649 [main] INFO  o.t.d.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+10964 [main] INFO  o.t.d.DockerClientProviderStrategy - Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+10964 [main] INFO  o.t.DockerClientFactory - Docker host IP address is localhost
+11003 [main] INFO  o.t.DockerClientFactory - Connected to docker: 
+  Server Version: 26.1.1
+  API Version: 1.45
+  Operating System: Docker Desktop
+  Total Memory: 7880 MB
+11045 [main] INFO  tc.testcontainers/ryuk:0.6.0 - Creating container for image: testcontainers/ryuk:0.6.0
+11425 [main] INFO  tc.testcontainers/ryuk:0.6.0 - Container testcontainers/ryuk:0.6.0 is starting: a45f02d2f22c592fca935f4ade58521d6122d514481c3717e757f98e61caf730
+11994 [main] INFO  tc.testcontainers/ryuk:0.6.0 - Container testcontainers/ryuk:0.6.0 started in PT0.9492668S
+12000 [main] INFO  o.t.utility.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+12001 [main] INFO  o.t.DockerClientFactory - Checking the system...
+12002 [main] INFO  o.t.DockerClientFactory - ?? Docker server version should be at least 1.6.0
+12002 [main] INFO  tc.sergs82/socialnetwork-db:latest - Creating container for image: sergs82/socialnetwork-db:latest
+12075 [main] INFO  tc.sergs82/socialnetwork-db:latest - Container sergs82/socialnetwork-db:latest is starting: 3c0e11e43e86e950a411678eff443249a60c7b68963f7bd9c30535433571ae4f
+15428 [main] INFO  tc.sergs82/socialnetwork-db:latest - Container sergs82/socialnetwork-db:latest started in PT3.4261592S
+15433 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+15433 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+15433 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+15464 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+15464 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+15464 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+15496 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+15499 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15506 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+472  [main] INFO  o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+487  [main] INFO  o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+1007 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.springexample.controllers.IntegrationTest]: IntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+1196 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.springexample.SpringExampleApplication for test class com.example.springexample.controllers.IntegrationTest
+1733 [main] INFO  c.e.s.controllers.IntegrationTest - Starting IntegrationTest using Java 18 with PID 15656 (started by 79778 in C:\Users\79778\OneDrive\Рабочий стол\проект\socialNetwork)
+1733 [main] INFO  c.e.s.controllers.IntegrationTest - No active profile set, falling back to 1 default profile: "default"
+2805 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2915 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 97 ms. Found 3 JPA repository interfaces.
+3703 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+3812 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.6.Final
+3812 [main] INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+4048 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+4252 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+4282 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+5038 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7185e611
+5038 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+6161 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+7587 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+7764 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+8545 [main] INFO  o.s.d.j.r.q.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+9568 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+10117 [main] INFO  c.e.s.controllers.IntegrationTest - Started IntegrationTest in 8.727 seconds (process running for 11.745)
+10117 [main] INFO  c.e.s.SpringExampleApplication - log info
+11094 [main] INFO  o.t.d.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+11454 [main] INFO  o.t.d.DockerClientProviderStrategy - Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+11454 [main] INFO  o.t.DockerClientFactory - Docker host IP address is localhost
+11479 [main] INFO  o.t.DockerClientFactory - Connected to docker: 
+  Server Version: 26.1.1
+  API Version: 1.45
+  Operating System: Docker Desktop
+  Total Memory: 7880 MB
+11517 [main] INFO  tc.testcontainers/ryuk:0.6.0 - Creating container for image: testcontainers/ryuk:0.6.0
+11836 [main] INFO  tc.testcontainers/ryuk:0.6.0 - Container testcontainers/ryuk:0.6.0 is starting: ae52261a696e35f167d0a686be09b10daa3182420074945101ddc7b307a86e8d
+12343 [main] INFO  tc.testcontainers/ryuk:0.6.0 - Container testcontainers/ryuk:0.6.0 started in PT0.8254963S
+12349 [main] INFO  o.t.utility.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+12350 [main] INFO  o.t.DockerClientFactory - Checking the system...
+12350 [main] INFO  o.t.DockerClientFactory - ?? Docker server version should be at least 1.6.0
+12351 [main] INFO  tc.sergs82/socialnetwork-db:latest - Creating container for image: sergs82/socialnetwork-db:latest
+12414 [main] INFO  tc.sergs82/socialnetwork-db:latest - Container sergs82/socialnetwork-db:latest is starting: cce2601195f60f923c42fa4abf92197ec8295a4f47adf35b4b189706a4b0fc87
+15103 [main] INFO  tc.sergs82/socialnetwork-db:latest - Container sergs82/socialnetwork-db:latest started in PT2.7518363S
+15105 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+15105 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+15105 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+15131 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+15131 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+15131 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+15177 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+15180 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15191 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+346  [main] INFO  o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+346  [main] INFO  o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+550  [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.springexample.controllers.IntegrationTest]: IntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+744  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.springexample.SpringExampleApplication for test class com.example.springexample.controllers.IntegrationTest
+1323 [main] INFO  c.e.s.controllers.IntegrationTest - Starting IntegrationTest using Java 18 with PID 30524 (started by 79778 in C:\Users\79778\OneDrive\Рабочий стол\проект\socialNetwork)
+1323 [main] INFO  c.e.s.controllers.IntegrationTest - No active profile set, falling back to 1 default profile: "default"
+2729 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2886 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 149 ms. Found 3 JPA repository interfaces.
+4382 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+4539 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.6.Final
+4546 [main] INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+4791 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+5027 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+5059 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+5578 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@66f2ec1c
+5578 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+6333 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+7626 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+7707 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+8206 [main] INFO  o.s.d.j.r.q.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+9085 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+9667 [main] INFO  c.e.s.controllers.IntegrationTest - Started IntegrationTest in 8.729 seconds (process running for 10.646)
+9667 [main] INFO  c.e.s.SpringExampleApplication - log info
+10653 [main] INFO  o.t.d.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+11111 [main] INFO  o.t.d.DockerClientProviderStrategy - Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+11127 [main] INFO  o.t.DockerClientFactory - Docker host IP address is localhost
+11171 [main] INFO  o.t.DockerClientFactory - Connected to docker: 
+  Server Version: 26.1.1
+  API Version: 1.45
+  Operating System: Docker Desktop
+  Total Memory: 7880 MB
+11221 [main] INFO  tc.testcontainers/ryuk:0.6.0 - Creating container for image: testcontainers/ryuk:0.6.0
+11530 [main] INFO  tc.testcontainers/ryuk:0.6.0 - Container testcontainers/ryuk:0.6.0 is starting: c71d6987fccde0cb27bfbad9e3e332d0c00399fb7741fd594f83c2bcc6a5067f
+12270 [main] INFO  tc.testcontainers/ryuk:0.6.0 - Container testcontainers/ryuk:0.6.0 started in PT1.0491088S
+12278 [main] INFO  o.t.utility.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+12278 [main] INFO  o.t.DockerClientFactory - Checking the system...
+12279 [main] INFO  o.t.DockerClientFactory - ?? Docker server version should be at least 1.6.0
+12279 [main] INFO  tc.sergs82/socialnetwork-db:latest - Creating container for image: sergs82/socialnetwork-db:latest
+12361 [main] INFO  tc.sergs82/socialnetwork-db:latest - Container sergs82/socialnetwork-db:latest is starting: 44da1c59c471c5c95d6cbff404b6cf63a424a08843e8e6e8e8f49a541a999a32
+15780 [main] INFO  tc.sergs82/socialnetwork-db:latest - Container sergs82/socialnetwork-db:latest started in PT3.5000811S
+15785 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+15785 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+15789 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+15805 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+15805 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+15805 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+15858 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+15862 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15867 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+409  [main] INFO  o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+409  [main] INFO  o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+693  [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.springexample.controllers.IntegrationTest]: IntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+992  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.springexample.SpringExampleApplication for test class com.example.springexample.controllers.IntegrationTest
+1769 [main] INFO  c.e.s.controllers.IntegrationTest - Starting IntegrationTest using Java 18 with PID 26168 (started by 79778 in C:\Users\79778\OneDrive\Рабочий стол\проект\socialNetwork)
+1769 [main] INFO  c.e.s.controllers.IntegrationTest - No active profile set, falling back to 1 default profile: "default"
+3015 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+3267 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 225 ms. Found 3 JPA repository interfaces.
+4636 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+4793 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.6.Final
+4793 [main] INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+5014 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+5187 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+5203 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+5547 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5c9e8a67
+5547 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+6172 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+7225 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+7315 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+7727 [main] INFO  o.s.d.j.r.q.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+8864 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+9917 [main] INFO  c.e.s.controllers.IntegrationTest - Started IntegrationTest in 8.637 seconds (process running for 11.32)
+9917 [main] INFO  c.e.s.SpringExampleApplication - log info
+11142 [main] INFO  o.t.d.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+11509 [main] INFO  o.t.d.DockerClientProviderStrategy - Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+11509 [main] INFO  o.t.DockerClientFactory - Docker host IP address is localhost
+11538 [main] INFO  o.t.DockerClientFactory - Connected to docker: 
+  Server Version: 26.1.1
+  API Version: 1.45
+  Operating System: Docker Desktop
+  Total Memory: 7880 MB
+11580 [main] INFO  tc.testcontainers/ryuk:0.6.0 - Creating container for image: testcontainers/ryuk:0.6.0
+11924 [main] INFO  tc.testcontainers/ryuk:0.6.0 - Container testcontainers/ryuk:0.6.0 is starting: c3a3a490446c8a9461feb3738398df4a68382fb843634f68670c1de2c5e5884a
+12625 [main] INFO  tc.testcontainers/ryuk:0.6.0 - Container testcontainers/ryuk:0.6.0 started in PT1.0450047S
+12634 [main] INFO  o.t.utility.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+12634 [main] INFO  o.t.DockerClientFactory - Checking the system...
+12634 [main] INFO  o.t.DockerClientFactory - ?? Docker server version should be at least 1.6.0
+12634 [main] INFO  tc.sergs82/socialnetwork-db:latest - Creating container for image: sergs82/socialnetwork-db:latest
+12721 [main] INFO  tc.sergs82/socialnetwork-db:latest - Container sergs82/socialnetwork-db:latest is starting: f9013045c0bcf6de6e5a110e1e6480a58166c4c700a3236f1230b39c92884f2a
+15767 [main] INFO  tc.sergs82/socialnetwork-db:latest - Container sergs82/socialnetwork-db:latest started in PT3.1316986S
+15772 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+15772 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+15772 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+15784 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+15784 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+15784 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+15784 [main] INFO  c.e.springexample.test.TestEntity - POST
+15834 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+15838 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15843 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+359  [main] INFO  o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+374  [main] INFO  o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+693  [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.springexample.controllers.IntegrationTest]: IntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+1003 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.springexample.SpringExampleApplication for test class com.example.springexample.controllers.IntegrationTest
+1954 [main] INFO  c.e.s.controllers.IntegrationTest - Starting IntegrationTest using Java 18 with PID 22136 (started by 79778 in C:\Users\79778\OneDrive\Рабочий стол\проект\socialNetwork)
+1954 [main] INFO  c.e.s.controllers.IntegrationTest - No active profile set, falling back to 1 default profile: "default"
+3332 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+3457 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 98 ms. Found 3 JPA repository interfaces.
+4306 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+4432 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.6.Final
+4432 [main] INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+4683 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+4897 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+4935 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+5498 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2347b7af
+5502 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+6330 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+7531 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+7614 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+8001 [main] INFO  o.s.d.j.r.q.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+9043 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+9571 [main] INFO  c.e.s.controllers.IntegrationTest - Started IntegrationTest in 8.189 seconds (process running for 10.515)
+9571 [main] INFO  c.e.s.SpringExampleApplication - log info
+11017 [main] INFO  o.t.d.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+11416 [main] INFO  o.t.d.DockerClientProviderStrategy - Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+11416 [main] INFO  o.t.DockerClientFactory - Docker host IP address is localhost
+11449 [main] INFO  o.t.DockerClientFactory - Connected to docker: 
+  Server Version: 26.1.1
+  API Version: 1.45
+  Operating System: Docker Desktop
+  Total Memory: 7880 MB
+11494 [main] INFO  tc.testcontainers/ryuk:0.6.0 - Creating container for image: testcontainers/ryuk:0.6.0
+11896 [main] INFO  tc.testcontainers/ryuk:0.6.0 - Container testcontainers/ryuk:0.6.0 is starting: 827563c43be56f0ae576a7dd9a772556ce2965b3aa4d18b6581504d394afe0ff
+12479 [main] INFO  tc.testcontainers/ryuk:0.6.0 - Container testcontainers/ryuk:0.6.0 started in PT0.9848243S
+12486 [main] INFO  o.t.utility.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+12487 [main] INFO  o.t.DockerClientFactory - Checking the system...
+12487 [main] INFO  o.t.DockerClientFactory - ?? Docker server version should be at least 1.6.0
+12488 [main] INFO  tc.sergs82/socialnetwork-db:latest - Creating container for image: sergs82/socialnetwork-db:latest
+12554 [main] INFO  tc.sergs82/socialnetwork-db:latest - Container sergs82/socialnetwork-db:latest is starting: 656a4ff88a05bb143fd4694b0eeb0703bc9f620c0d51a26c6f74b5ff86dcabfd
+15528 [main] INFO  tc.sergs82/socialnetwork-db:latest - Container sergs82/socialnetwork-db:latest started in PT3.0402621S
+15532 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+15532 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+15532 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+15544 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+15544 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+15544 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+15544 [main] INFO  c.e.springexample.test.TestEntity - POST
+15544 [main] INFO  c.e.springexample.test.TestEntity - 200
+15544 [main] INFO  c.e.springexample.test.TestEntity - массив команд
+15576 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+15591 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15598 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+325  [main] INFO  o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+325  [main] INFO  o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+577  [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.springexample.controllers.IntegrationTest]: IntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+735  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.springexample.SpringExampleApplication for test class com.example.springexample.controllers.IntegrationTest
+1306 [main] INFO  c.e.s.controllers.IntegrationTest - Starting IntegrationTest using Java 18 with PID 16872 (started by 79778 in C:\Users\79778\OneDrive\Рабочий стол\проект\socialNetwork)
+1306 [main] INFO  c.e.s.controllers.IntegrationTest - No active profile set, falling back to 1 default profile: "default"
+2503 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2628 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 119 ms. Found 3 JPA repository interfaces.
+3916 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+4215 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.6.Final
+4215 [main] INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+4657 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+4940 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+4972 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+5381 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7493d937
+5387 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+6232 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+7781 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+7869 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+8189 [main] INFO  o.s.d.j.r.q.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+9227 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+9840 [main] INFO  c.e.s.controllers.IntegrationTest - Started IntegrationTest in 8.918 seconds (process running for 10.898)
+9840 [main] INFO  c.e.s.SpringExampleApplication - log info
+10781 [main] INFO  o.t.d.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+11141 [main] INFO  o.t.d.DockerClientProviderStrategy - Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+11141 [main] INFO  o.t.DockerClientFactory - Docker host IP address is localhost
+11185 [main] INFO  o.t.DockerClientFactory - Connected to docker: 
+  Server Version: 26.1.1
+  API Version: 1.45
+  Operating System: Docker Desktop
+  Total Memory: 7880 MB
+11227 [main] INFO  tc.testcontainers/ryuk:0.6.0 - Creating container for image: testcontainers/ryuk:0.6.0
+11699 [main] INFO  tc.testcontainers/ryuk:0.6.0 - Container testcontainers/ryuk:0.6.0 is starting: 36cfc6fde9fa70ded2d3ef9a03b59d5ab67d8f293bb3067c8f4442e8aac616eb
+12292 [main] INFO  tc.testcontainers/ryuk:0.6.0 - Container testcontainers/ryuk:0.6.0 started in PT1.0654371S
+12299 [main] INFO  o.t.utility.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+12299 [main] INFO  o.t.DockerClientFactory - Checking the system...
+12300 [main] INFO  o.t.DockerClientFactory - ?? Docker server version should be at least 1.6.0
+12300 [main] INFO  tc.sergs82/socialnetwork-db:latest - Creating container for image: sergs82/socialnetwork-db:latest
+12404 [main] INFO  tc.sergs82/socialnetwork-db:latest - Container sergs82/socialnetwork-db:latest is starting: 378933d7b0c2c45451f3de44c48ca014202ee42ba7103af7f7c07e6e123212a7
+15766 [main] INFO  tc.sergs82/socialnetwork-db:latest - Container sergs82/socialnetwork-db:latest started in PT3.4662145S
+15766 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+15766 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+15778 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+15814 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+15814 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+15814 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+15814 [main] INFO  c.e.springexample.test.TestEntity - POST
+15814 [main] INFO  c.e.springexample.test.TestEntity - 200
+15814 [main] INFO  c.e.springexample.test.TestEntity - [AuthorDto(id=ssa_1, firstName=Иван, lastName=Иванов, mail=ivanov@gmail.com, phone=+79771111111, sex=M, city=Таганрог), AuthorDto(id=ssa_2, firstName=Пётр, lastName=Петров, mail=petrov@mail.ru, phone=+79162222222, sex=M, city=Сочи), AuthorDto(id=ssa_3, firstName=Сидр, lastName=Сидоров, mail=sidorov@ya.ru, phone=+7903333331, sex=M, city=Анапа), AuthorDto(id=ssa_5, firstName=Катерина, lastName=Иванова, mail=ivanova@list.ru, phone=+7903333333, sex=F, city=Геленжик)]
+15825 [main] INFO  c.e.springexample.test.TestEntity - массив команд
+15857 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+15863 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15872 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+329  [main] INFO  o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+329  [main] INFO  o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+534  [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.springexample.controllers.IntegrationTest]: IntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+723  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.springexample.SpringExampleApplication for test class com.example.springexample.controllers.IntegrationTest
+1280 [main] INFO  c.e.s.controllers.IntegrationTest - Starting IntegrationTest using Java 18 with PID 4500 (started by 79778 in C:\Users\79778\OneDrive\Рабочий стол\проект\socialNetwork)
+1280 [main] INFO  c.e.s.controllers.IntegrationTest - No active profile set, falling back to 1 default profile: "default"
+2465 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2591 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 109 ms. Found 3 JPA repository interfaces.
+3535 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+3802 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.6.Final
+3802 [main] INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+4383 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+4667 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+4714 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+5141 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@71dd4624
+5141 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+5939 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+7588 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+7669 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+8012 [main] INFO  o.s.d.j.r.q.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+9020 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+9603 [main] INFO  c.e.s.controllers.IntegrationTest - Started IntegrationTest in 8.682 seconds (process running for 10.656)
+9603 [main] INFO  c.e.s.SpringExampleApplication - log info
+10513 [main] INFO  o.t.d.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+10879 [main] INFO  o.t.d.DockerClientProviderStrategy - Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+10879 [main] INFO  o.t.DockerClientFactory - Docker host IP address is localhost
+10904 [main] INFO  o.t.DockerClientFactory - Connected to docker: 
+  Server Version: 26.1.1
+  API Version: 1.45
+  Operating System: Docker Desktop
+  Total Memory: 7880 MB
+10941 [main] INFO  tc.testcontainers/ryuk:0.6.0 - Creating container for image: testcontainers/ryuk:0.6.0
+11239 [main] INFO  tc.testcontainers/ryuk:0.6.0 - Container testcontainers/ryuk:0.6.0 is starting: ccb50304af60434fa784d96d7f65c07bf0601d70302bf591accbc4484bf73189
+11869 [main] INFO  tc.testcontainers/ryuk:0.6.0 - Container testcontainers/ryuk:0.6.0 started in PT0.9271083S
+11875 [main] INFO  o.t.utility.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+11876 [main] INFO  o.t.DockerClientFactory - Checking the system...
+11878 [main] INFO  o.t.DockerClientFactory - ?? Docker server version should be at least 1.6.0
+11878 [main] INFO  tc.sergs82/socialnetwork-db:latest - Creating container for image: sergs82/socialnetwork-db:latest
+11951 [main] INFO  tc.sergs82/socialnetwork-db:latest - Container sergs82/socialnetwork-db:latest is starting: 59f39c6670fc8ce85b8c0c33d893a6263f47a65a119f874306a945d90c3a026e
+15155 [main] INFO  tc.sergs82/socialnetwork-db:latest - Container sergs82/socialnetwork-db:latest started in PT3.2766611S
+15162 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+15162 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+15162 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+15201 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+15201 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+15201 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+15201 [main] INFO  c.e.springexample.test.TestEntity - POST
+15201 [main] INFO  c.e.springexample.test.TestEntity - 200
+15201 [main] INFO  c.e.springexample.test.TestEntity - [AuthorDto(id=ssa_1, firstName=Иван, lastName=Иванов, mail=ivanov@gmail.com, phone=+79771111111, sex=M, city=Таганрог), AuthorDto(id=ssa_2, firstName=Пётр, lastName=Петров, mail=petrov@mail.ru, phone=+79162222222, sex=M, city=Сочи), AuthorDto(id=ssa_3, firstName=Сидр, lastName=Сидоров, mail=sidorov@ya.ru, phone=+7903333331, sex=M, city=Анапа), AuthorDto(id=ssa_5, firstName=Катерина, lastName=Иванова, mail=ivanova@list.ru, phone=+7903333333, sex=F, city=Геленжик)]
+15201 [main] INFO  c.e.springexample.test.TestEntity - AuthorDto(id=ssa_1, firstName=Иван, lastName=Иванов, mail=ivanov@gmail.com, phone=+79771111111, sex=M, city=Таганрог)
+15248 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+15252 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15269 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+346  [main] INFO  o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+346  [main] INFO  o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+566  [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.springexample.controllers.IntegrationTest]: IntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+740  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.springexample.SpringExampleApplication for test class com.example.springexample.controllers.IntegrationTest
+1754 [main] INFO  c.e.s.controllers.IntegrationTest - Starting IntegrationTest using Java 18 with PID 25812 (started by 79778 in C:\Users\79778\OneDrive\Рабочий стол\проект\socialNetwork)
+1754 [main] INFO  c.e.s.controllers.IntegrationTest - No active profile set, falling back to 1 default profile: "default"
+3233 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+3343 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 95 ms. Found 3 JPA repository interfaces.
+4284 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+4425 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.6.Final
+4425 [main] INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+4694 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+4928 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+4975 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+5495 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@18d30e7
+5495 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+6203 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+7386 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+7473 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+7870 [main] INFO  o.s.d.j.r.q.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+8750 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+9332 [main] INFO  c.e.s.controllers.IntegrationTest - Started IntegrationTest in 8.277 seconds (process running for 10.292)
+9348 [main] INFO  c.e.s.SpringExampleApplication - log info
+10785 [main] INFO  o.t.d.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+11181 [main] INFO  o.t.d.DockerClientProviderStrategy - Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+11181 [main] INFO  o.t.DockerClientFactory - Docker host IP address is localhost
+11223 [main] INFO  o.t.DockerClientFactory - Connected to docker: 
+  Server Version: 26.1.1
+  API Version: 1.45
+  Operating System: Docker Desktop
+  Total Memory: 7880 MB
+11263 [main] INFO  tc.testcontainers/ryuk:0.6.0 - Creating container for image: testcontainers/ryuk:0.6.0
+11669 [main] INFO  tc.testcontainers/ryuk:0.6.0 - Container testcontainers/ryuk:0.6.0 is starting: d48d17f376d98dcd629ec5277feb35fcd19252457574f817ec4e36fc1e06d21f
+12230 [main] INFO  tc.testcontainers/ryuk:0.6.0 - Container testcontainers/ryuk:0.6.0 started in PT0.9667978S
+12238 [main] INFO  o.t.utility.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+12238 [main] INFO  o.t.DockerClientFactory - Checking the system...
+12239 [main] INFO  o.t.DockerClientFactory - ?? Docker server version should be at least 1.6.0
+12240 [main] INFO  tc.sergs82/socialnetwork-db:latest - Creating container for image: sergs82/socialnetwork-db:latest
+12314 [main] INFO  tc.sergs82/socialnetwork-db:latest - Container sergs82/socialnetwork-db:latest is starting: 4aa9c1ab4a9632d48fd4118807b49c92049ecb8bc7ec70668fa647a4ed84a1e5
+15410 [main] INFO  tc.sergs82/socialnetwork-db:latest - Container sergs82/socialnetwork-db:latest started in PT3.1701354S
+15417 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+15417 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+15419 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+15449 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+15449 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+15450 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+15450 [main] INFO  c.e.springexample.test.TestEntity - POST
+15450 [main] INFO  c.e.springexample.test.TestEntity - 200
+15457 [main] INFO  c.e.springexample.test.TestEntity - [AuthorDto(id=ssa_1, firstName=Иван, lastName=Иванов, mail=ivanov@gmail.com, phone=+79771111111, sex=M, city=Таганрог), AuthorDto(id=ssa_2, firstName=Пётр, lastName=Петров, mail=petrov@mail.ru, phone=+79162222222, sex=M, city=Сочи), AuthorDto(id=ssa_3, firstName=Сидр, lastName=Сидоров, mail=sidorov@ya.ru, phone=+7903333331, sex=M, city=Анапа), AuthorDto(id=ssa_5, firstName=Катерина, lastName=Иванова, mail=ivanova@list.ru, phone=+7903333333, sex=F, city=Геленжик)]
+15458 [main] INFO  c.e.springexample.test.TestEntity - AuthorDto(id=ssa_1, firstName=Иван, lastName=Иванов, mail=ivanov@gmail.com, phone=+79771111111, sex=M, city=Таганрог)
+15705 [main] INFO  c.e.springexample.test.TestEntity - AuthorDto(id=ssa_2, firstName=Пётр, lastName=Петров, mail=petrov@mail.ru, phone=+79162222222, sex=M, city=Сочи)
+15714 [main] INFO  c.e.springexample.test.TestEntity - AuthorDto(id=ssa_3, firstName=Сидр, lastName=Сидоров, mail=sidorov@ya.ru, phone=+7903333331, sex=M, city=Анапа)
+15722 [main] INFO  c.e.springexample.test.TestEntity - AuthorDto(id=ssa_5, firstName=Катерина, lastName=Иванова, mail=ivanova@list.ru, phone=+7903333333, sex=F, city=Геленжик)
+15729 [main] INFO  c.e.springexample.test.TestEntity - 000
+15729 [main] INFO  c.e.springexample.test.TestEntity - [AuthorDto(id=ssa_4, firstName=Василий, lastName=Васин, mail=vasin_ya.ru, phone=+7903333332, sex=M, city=Геленжик), AuthorDto(id=ssa_6, firstName=Хельга, lastName=Петров, mail=hpetrov_ya.ru, phone=+7903333334, sex=X, city=Париж)]
+15729 [main] INFO  c.e.springexample.test.TestEntity - AuthorDto(id=ssa_4, firstName=Василий, lastName=Васин, mail=vasin_ya.ru, phone=+7903333332, sex=M, city=Геленжик)
+15736 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 23514
+15736 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - ERROR: new row for relation "author" violates check constraint "author_mail"
+  Подробности: Failing row contains (f, M, 5, Геленжик, Василий, Васин, vasin_ya.ru, +7903333332).
+15747 [main] INFO  c.e.springexample.test.TestEntity - AuthorDto(id=ssa_6, firstName=Хельга, lastName=Петров, mail=hpetrov_ya.ru, phone=+7903333334, sex=X, city=Париж)
+15751 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 23514
+15751 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - ERROR: new row for relation "author" violates check constraint "author_mail"
+  Подробности: Failing row contains (f, X, 6, Париж, Хельга, Петров, hpetrov_ya.ru, +7903333334).
+15773 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+15776 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15784 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+330  [main] INFO  o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+348  [main] INFO  o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+566  [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.springexample.controllers.IntegrationTest]: IntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+738  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.springexample.SpringExampleApplication for test class com.example.springexample.controllers.IntegrationTest
+1475 [main] INFO  c.e.s.controllers.IntegrationTest - Starting IntegrationTest using Java 18 with PID 21184 (started by 79778 in C:\Users\79778\OneDrive\Рабочий стол\проект\socialNetwork)
+1475 [main] INFO  c.e.s.controllers.IntegrationTest - No active profile set, falling back to 1 default profile: "default"
+3152 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+3317 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 154 ms. Found 3 JPA repository interfaces.
+4389 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+4515 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.6.Final
+4515 [main] INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+4782 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+5081 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+5143 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+5608 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@384472bf
+5608 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+6517 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+7470 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+7571 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+8142 [main] INFO  o.s.d.j.r.q.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+9100 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+9699 [main] INFO  c.e.s.controllers.IntegrationTest - Started IntegrationTest in 8.684 seconds (process running for 10.867)
+9699 [main] INFO  c.e.s.SpringExampleApplication - log info
+10737 [main] INFO  o.t.d.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+11129 [main] INFO  o.t.d.DockerClientProviderStrategy - Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+11129 [main] INFO  o.t.DockerClientFactory - Docker host IP address is localhost
+11167 [main] INFO  o.t.DockerClientFactory - Connected to docker: 
+  Server Version: 26.1.1
+  API Version: 1.45
+  Operating System: Docker Desktop
+  Total Memory: 7880 MB
+11207 [main] INFO  tc.testcontainers/ryuk:0.6.0 - Creating container for image: testcontainers/ryuk:0.6.0
+11554 [main] INFO  tc.testcontainers/ryuk:0.6.0 - Container testcontainers/ryuk:0.6.0 is starting: 3b1601b34bc3ffaa1dda7cf13a439417e0e7e3a950a8c65187f0bc82de0c0878
+12169 [main] INFO  tc.testcontainers/ryuk:0.6.0 - Container testcontainers/ryuk:0.6.0 started in PT0.9622008S
+12181 [main] INFO  o.t.utility.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+12181 [main] INFO  o.t.DockerClientFactory - Checking the system...
+12182 [main] INFO  o.t.DockerClientFactory - ?? Docker server version should be at least 1.6.0
+12183 [main] INFO  tc.sergs82/socialnetwork-db:latest - Creating container for image: sergs82/socialnetwork-db:latest
+12266 [main] INFO  tc.sergs82/socialnetwork-db:latest - Container sergs82/socialnetwork-db:latest is starting: fdb492f6c2c61ebd42308ab8dba676c13b04225809e9bd5210ed8ad48779af19
+15563 [main] INFO  tc.sergs82/socialnetwork-db:latest - Container sergs82/socialnetwork-db:latest started in PT3.380196S
+15566 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+15566 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+15566 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+15591 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+15591 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+15591 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+15591 [main] INFO  c.e.springexample.test.TestEntity - POST
+15638 [main] INFO  c.e.springexample.test.TestEntity - AuthorDto(id=ssa_1, firstName=Иван, lastName=Иванов, mail=ivanov@gmail.com, phone=+79771111111, sex=M, city=null)
+15701 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+15701 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15720 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+344  [main] INFO  o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+344  [main] INFO  o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+565  [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.springexample.controllers.IntegrationTest]: IntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+753  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.springexample.SpringExampleApplication for test class com.example.springexample.controllers.IntegrationTest
+1321 [main] INFO  c.e.s.controllers.IntegrationTest - Starting IntegrationTest using Java 18 with PID 20488 (started by 79778 in C:\Users\79778\OneDrive\Рабочий стол\проект\socialNetwork)
+1336 [main] INFO  c.e.s.controllers.IntegrationTest - No active profile set, falling back to 1 default profile: "default"
+2957 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+3098 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 121 ms. Found 3 JPA repository interfaces.
+4087 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+4213 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.6.Final
+4213 [main] INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+4449 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+4715 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+4747 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+5210 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@71dd4624
+5210 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+6016 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+7537 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+7620 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+7994 [main] INFO  o.s.d.j.r.q.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+8952 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+9552 [main] INFO  c.e.s.controllers.IntegrationTest - Started IntegrationTest in 8.612 seconds (process running for 10.745)
+9552 [main] INFO  c.e.s.SpringExampleApplication - log info
+10470 [main] INFO  o.t.d.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+11293 [main] INFO  o.t.d.DockerClientProviderStrategy - Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+11293 [main] INFO  o.t.DockerClientFactory - Docker host IP address is localhost
+11349 [main] INFO  o.t.DockerClientFactory - Connected to docker: 
+  Server Version: 26.1.1
+  API Version: 1.45
+  Operating System: Docker Desktop
+  Total Memory: 7880 MB
+11419 [main] INFO  tc.testcontainers/ryuk:0.6.0 - Creating container for image: testcontainers/ryuk:0.6.0
+11747 [main] INFO  tc.testcontainers/ryuk:0.6.0 - Container testcontainers/ryuk:0.6.0 is starting: 5602c9af242d624d31bc541f4446e1af15caa575e6176d32279cc9eea45ca077
+12357 [main] INFO  tc.testcontainers/ryuk:0.6.0 - Container testcontainers/ryuk:0.6.0 started in PT0.9374454S
+12370 [main] INFO  o.t.utility.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+12370 [main] INFO  o.t.DockerClientFactory - Checking the system...
+12371 [main] INFO  o.t.DockerClientFactory - ?? Docker server version should be at least 1.6.0
+12372 [main] INFO  tc.sergs82/socialnetwork-db:latest - Creating container for image: sergs82/socialnetwork-db:latest
+12450 [main] INFO  tc.sergs82/socialnetwork-db:latest - Container sergs82/socialnetwork-db:latest is starting: d65d34071497966543ac2c11c23c98cb3fdc1e27dc6129f0db4f544373f64137
+15182 [main] INFO  tc.sergs82/socialnetwork-db:latest - Container sergs82/socialnetwork-db:latest started in PT2.8097368S
+15187 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+15187 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+15187 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+15255 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+15291 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+15315 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 8 ms
+15319 [main] INFO  c.e.springexample.test.TestEntity - POST
+15325 [main] INFO  c.e.springexample.test.TestEntity - AuthorDto(id=ssa_1, firstName=Иван, lastName=Иванов, mail=ivanov@gmail.com, phone=+79771111111, sex=M, city=Таганрог)
+15762 [main] INFO  c.e.springexample.test.TestEntity - AuthorDto(id=ssa_2, firstName=Пётр, lastName=Петров, mail=petrov@mail.ru, phone=+79162222222, sex=M, city=Сочи)
+15783 [main] INFO  c.e.springexample.test.TestEntity - AuthorDto(id=ssa_3, firstName=Сидр, lastName=Сидоров, mail=sidorov@ya.ru, phone=+7903333331, sex=M, city=Анапа)
+15800 [main] INFO  c.e.springexample.test.TestEntity - AuthorDto(id=ssa_5, firstName=Катерина, lastName=Иванова, mail=ivanova@list.ru, phone=+7903333333, sex=F, city=Геленжик)
+15813 [main] INFO  c.e.springexample.test.TestEntity - AuthorDto(id=ssa_4, firstName=Василий, lastName=Васин, mail=vasin_ya.ru, phone=+7903333332, sex=M, city=Геленжик)
+15823 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 23514
+15823 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - ERROR: new row for relation "author" violates check constraint "author_mail"
+  Подробности: Failing row contains (f, M, 11, Геленжик, Василий, Васин, vasin_ya.ru, +7903333332).
+15840 [main] INFO  c.e.springexample.test.TestEntity - AuthorDto(id=ssa_6, firstName=Хельга, lastName=Петров, mail=hpetrov_ya.ru, phone=+7903333334, sex=X, city=Париж)
+15845 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 23514
+15845 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - ERROR: new row for relation "author" violates check constraint "author_mail"
+  Подробности: Failing row contains (f, X, 12, Париж, Хельга, Петров, hpetrov_ya.ru, +7903333334).
+15883 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+15887 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15892 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+361  [main] INFO  o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+361  [main] INFO  o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+581  [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.springexample.controllers.IntegrationTest]: IntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+739  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.springexample.SpringExampleApplication for test class com.example.springexample.controllers.IntegrationTest
+1368 [main] INFO  c.e.s.controllers.IntegrationTest - Starting IntegrationTest using Java 18 with PID 13620 (started by 79778 in C:\Users\79778\OneDrive\Рабочий стол\проект\socialNetwork)
+1368 [main] INFO  c.e.s.controllers.IntegrationTest - The following 1 profile is active: "test"
+2525 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2619 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 78 ms. Found 3 JPA repository interfaces.
+3357 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+3467 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.6.Final
+3467 [main] INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+3699 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+3922 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+3985 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+5055 [main] ERROR com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Exception during pool initialization.
+org.postgresql.util.PSQLException: Подсоединение по адресу 127.0.0.1:6101 отклонено. Проверьте что хост и порт указаны правильно и что postmaster принимает TCP/IP-подсоединения.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:342)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:263)
+	at org.postgresql.Driver.makeConnection(Driver.java:443)
+	at org.postgresql.Driver.connect(Driver.java:297)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:359)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:470)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:100)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:316)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:152)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:34)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:119)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:264)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:239)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:216)
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:230)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:198)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:166)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1380)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1451)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1817)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1766)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1155)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:932)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.test.context.SpringBootContextLoader.lambda$loadContext$3(SpringBootContextLoader.java:137)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:58)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:46)
+	at org.springframework.boot.SpringApplication.withHook(SpringApplication.java:1406)
+	at org.springframework.boot.test.context.SpringBootContextLoader$ContextLoaderHook.run(SpringBootContextLoader.java:545)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:137)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:108)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:187)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:119)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:127)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:191)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:130)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:241)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:138)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$10(ClassBasedTestDescriptor.java:377)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:382)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$11(ClassBasedTestDescriptor.java:377)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:310)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:376)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:289)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:288)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:278)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:277)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$before$2(ClassBasedTestDescriptor.java:203)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.before(ClassBasedTestDescriptor.java:202)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.before(ClassBasedTestDescriptor.java:84)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:148)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:71)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:539)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:594)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.postgresql.core.PGStream.createSocket(PGStream.java:243)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:98)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:132)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:258)
+	... 118 common frames omitted
+5055 [main] WARN  o.h.e.j.e.i.JdbcEnvironmentInitiator - HHH000342: Could not obtain connection to query metadata
+org.postgresql.util.PSQLException: Подсоединение по адресу 127.0.0.1:6101 отклонено. Проверьте что хост и порт указаны правильно и что postmaster принимает TCP/IP-подсоединения.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:342)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:263)
+	at org.postgresql.Driver.makeConnection(Driver.java:443)
+	at org.postgresql.Driver.connect(Driver.java:297)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:359)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:470)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:100)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:316)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:152)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:34)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:119)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:264)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:239)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:216)
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:230)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:198)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:166)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1380)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1451)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1817)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1766)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1155)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:932)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.test.context.SpringBootContextLoader.lambda$loadContext$3(SpringBootContextLoader.java:137)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:58)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:46)
+	at org.springframework.boot.SpringApplication.withHook(SpringApplication.java:1406)
+	at org.springframework.boot.test.context.SpringBootContextLoader$ContextLoaderHook.run(SpringBootContextLoader.java:545)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:137)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:108)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:187)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:119)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:127)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:191)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:130)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:241)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:138)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$10(ClassBasedTestDescriptor.java:377)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:382)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$11(ClassBasedTestDescriptor.java:377)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:310)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:376)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:289)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:288)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:278)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:277)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$before$2(ClassBasedTestDescriptor.java:203)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.before(ClassBasedTestDescriptor.java:202)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.before(ClassBasedTestDescriptor.java:84)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:148)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:71)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:539)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:594)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.postgresql.core.PGStream.createSocket(PGStream.java:243)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:98)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:132)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:258)
+	... 118 common frames omitted
+5071 [main] ERROR o.s.o.j.LocalContainerEntityManagerFactoryBean - Failed to initialize JPA EntityManagerFactory: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'javax.persistence.jdbc.url', 'hibernate.connection.url', or 'hibernate.dialect')
+5071 [main] WARN  o.s.w.c.s.GenericWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'javax.persistence.jdbc.url', 'hibernate.connection.url', or 'hibernate.dialect')
+5090 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+5118 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'javax.persistence.jdbc.url', 'hibernate.connection.url', or 'hibernate.dialect')
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1770)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1155)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:932)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.test.context.SpringBootContextLoader.lambda$loadContext$3(SpringBootContextLoader.java:137)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:58)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:46)
+	at org.springframework.boot.SpringApplication.withHook(SpringApplication.java:1406)
+	at org.springframework.boot.test.context.SpringBootContextLoader$ContextLoaderHook.run(SpringBootContextLoader.java:545)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:137)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:108)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:187)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:119)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:127)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:191)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:130)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:241)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:138)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$10(ClassBasedTestDescriptor.java:377)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:382)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$11(ClassBasedTestDescriptor.java:377)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:310)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:376)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:289)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:288)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:278)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:277)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$before$2(ClassBasedTestDescriptor.java:203)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.before(ClassBasedTestDescriptor.java:202)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.before(ClassBasedTestDescriptor.java:84)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:148)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:71)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'javax.persistence.jdbc.url', 'hibernate.connection.url', or 'hibernate.dialect')
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:277)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:239)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:216)
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:230)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:198)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:166)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1380)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1451)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1817)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1766)
+	... 86 common frames omitted
+Caused by: org.hibernate.HibernateException: Unable to determine Dialect without JDBC metadata (please set 'javax.persistence.jdbc.url', 'hibernate.connection.url', or 'hibernate.dialect')
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.determineDialect(DialectFactoryImpl.java:188)
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.buildDialect(DialectFactoryImpl.java:87)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:274)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:34)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:119)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:264)
+	... 101 common frames omitted
+5133 [main] ERROR o.s.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener] to prepare test instance [com.example.springexample.controllers.IntegrationTest@362a561e]
+java.lang.IllegalStateException: Failed to load ApplicationContext for [WebMergedContextConfiguration@4a660b34 testClass = com.example.springexample.controllers.IntegrationTest, locations = [], classes = [com.example.springexample.SpringExampleApplication], contextInitializerClasses = [], activeProfiles = ["test"], propertySourceLocations = [], propertySourceProperties = ["org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true"], contextCustomizers = [org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3da05287, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@497486b3, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@2d6764b2, org.springframework.boot.test.autoconfigure.actuate.observability.ObservabilityContextCustomizerFactory$DisableObservabilityContextCustomizer@1f, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@ff684e1, org.springframework.boot.test.context.SpringBootTestAnnotation@b197e263], resourceBasePath = "src/main/webapp", contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:143)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:127)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:191)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:130)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:241)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:138)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$10(ClassBasedTestDescriptor.java:377)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:382)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$11(ClassBasedTestDescriptor.java:377)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:310)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:376)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:289)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:288)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:278)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:277)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$before$2(ClassBasedTestDescriptor.java:203)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.before(ClassBasedTestDescriptor.java:202)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.before(ClassBasedTestDescriptor.java:84)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:148)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:71)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'javax.persistence.jdbc.url', 'hibernate.connection.url', or 'hibernate.dialect')
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1770)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1155)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:932)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.test.context.SpringBootContextLoader.lambda$loadContext$3(SpringBootContextLoader.java:137)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:58)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:46)
+	at org.springframework.boot.SpringApplication.withHook(SpringApplication.java:1406)
+	at org.springframework.boot.test.context.SpringBootContextLoader$ContextLoaderHook.run(SpringBootContextLoader.java:545)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:137)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:108)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:187)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:119)
+	... 65 common frames omitted
+Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'javax.persistence.jdbc.url', 'hibernate.connection.url', or 'hibernate.dialect')
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:277)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:239)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:216)
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:230)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:198)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:166)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1380)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1451)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1817)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1766)
+	... 86 common frames omitted
+Caused by: org.hibernate.HibernateException: Unable to determine Dialect without JDBC metadata (please set 'javax.persistence.jdbc.url', 'hibernate.connection.url', or 'hibernate.dialect')
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.determineDialect(DialectFactoryImpl.java:188)
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.buildDialect(DialectFactoryImpl.java:87)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:274)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:34)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:119)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:264)
+	... 101 common frames omitted
+377  [main] INFO  o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+393  [main] INFO  o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+597  [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.springexample.controllers.IntegrationTest]: IntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+755  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.springexample.SpringExampleApplication for test class com.example.springexample.controllers.IntegrationTest
+1401 [main] INFO  c.e.s.controllers.IntegrationTest - Starting IntegrationTest using Java 18 with PID 27876 (started by 79778 in C:\Users\79778\OneDrive\Рабочий стол\проект\socialNetwork)
+1401 [main] INFO  c.e.s.controllers.IntegrationTest - The following 1 profile is active: "test"
+3235 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+3398 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 152 ms. Found 3 JPA repository interfaces.
+4260 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+4386 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.6.Final
+4386 [main] INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+4653 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+4889 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+4920 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+5330 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7d88fa9c
+5337 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+6182 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+7640 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+7732 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+8092 [main] INFO  o.s.d.j.r.q.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+9099 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+9664 [main] INFO  c.e.s.controllers.IntegrationTest - Started IntegrationTest in 8.703 seconds (process running for 10.613)
+9664 [main] INFO  c.e.s.SpringExampleApplication - log info
+10560 [main] INFO  o.t.d.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+10920 [main] INFO  o.t.d.DockerClientProviderStrategy - Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+10920 [main] INFO  o.t.DockerClientFactory - Docker host IP address is localhost
+10945 [main] INFO  o.t.DockerClientFactory - Connected to docker: 
+  Server Version: 26.1.1
+  API Version: 1.45
+  Operating System: Docker Desktop
+  Total Memory: 7880 MB
+10983 [main] INFO  tc.testcontainers/ryuk:0.6.0 - Creating container for image: testcontainers/ryuk:0.6.0
+11305 [main] INFO  tc.testcontainers/ryuk:0.6.0 - Container testcontainers/ryuk:0.6.0 is starting: 5590b33b4590ab5b4a57e44260f1edd0a2922296e34613de9df468dc060bdcde
+11905 [main] INFO  tc.testcontainers/ryuk:0.6.0 - Container testcontainers/ryuk:0.6.0 started in PT0.921774S
+11913 [main] INFO  o.t.utility.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+11913 [main] INFO  o.t.DockerClientFactory - Checking the system...
+11914 [main] INFO  o.t.DockerClientFactory - ?? Docker server version should be at least 1.6.0
+11914 [main] INFO  tc.sergs82/socialnetwork-db:latest - Creating container for image: sergs82/socialnetwork-db:latest
+11982 [main] INFO  tc.sergs82/socialnetwork-db:latest - Container sergs82/socialnetwork-db:latest is starting: b0cb2deeb9f51fb8a358629bd6a541b061360513e5a89af55e504c3511a7e713
+15252 [main] INFO  tc.sergs82/socialnetwork-db:latest - Container sergs82/socialnetwork-db:latest started in PT3.338012S
+15256 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+15256 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+15256 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+15286 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+15286 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+15286 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+15286 [main] INFO  c.e.springexample.test.TestEntity - POST
+15286 [main] INFO  c.e.springexample.test.TestEntity - AuthorDto(id=ssa_1, firstName=Иван, lastName=Иванов, mail=ivanov@gmail.com, phone=+79771111111, sex=M, city=Таганрог)
+15616 [main] INFO  c.e.springexample.test.TestEntity - AuthorDto(id=ssa_2, firstName=Пётр, lastName=Петров, mail=petrov@mail.ru, phone=+79162222222, sex=M, city=Сочи)
+15631 [main] INFO  c.e.springexample.test.TestEntity - AuthorDto(id=ssa_3, firstName=Сидр, lastName=Сидоров, mail=sidorov@ya.ru, phone=+7903333331, sex=M, city=Анапа)
+15640 [main] INFO  c.e.springexample.test.TestEntity - AuthorDto(id=ssa_5, firstName=Катерина, lastName=Иванова, mail=ivanova@list.ru, phone=+7903333333, sex=F, city=Геленжик)
+15648 [main] INFO  c.e.springexample.test.TestEntity - AuthorDto(id=ssa_4, firstName=Василий, lastName=Васин, mail=vasin_ya.ru, phone=+7903333332, sex=M, city=Геленжик)
+15654 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 23514
+15654 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - ERROR: new row for relation "author" violates check constraint "author_mail"
+  Подробности: Failing row contains (f, M, 17, Геленжик, Василий, Васин, vasin_ya.ru, +7903333332).
+15663 [main] INFO  c.e.springexample.test.TestEntity - AuthorDto(id=ssa_6, firstName=Хельга, lastName=Петров, mail=hpetrov_ya.ru, phone=+7903333334, sex=X, city=Париж)
+15672 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 23514
+15672 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - ERROR: new row for relation "author" violates check constraint "author_mail"
+  Подробности: Failing row contains (f, X, 18, Париж, Хельга, Петров, hpetrov_ya.ru, +7903333334).
+15698 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+15701 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15708 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+364  [main] INFO  o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+380  [main] INFO  o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+599  [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.springexample.controllers.IntegrationTest]: IntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+773  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.springexample.SpringExampleApplication for test class com.example.springexample.controllers.IntegrationTest
+1439 [main] INFO  c.e.s.controllers.IntegrationTest - Starting IntegrationTest using Java 18 with PID 13712 (started by 79778 in C:\Users\79778\OneDrive\Рабочий стол\проект\socialNetwork)
+1439 [main] INFO  c.e.s.controllers.IntegrationTest - The following 1 profile is active: "test"
+3133 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+3308 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 148 ms. Found 3 JPA repository interfaces.
+4218 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+4360 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.6.Final
+4360 [main] INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+4610 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+4846 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+4877 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+5302 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7d88fa9c
+5302 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+6080 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+7589 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+7682 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+8187 [main] INFO  o.s.d.j.r.q.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+9083 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+9727 [main] INFO  c.e.s.controllers.IntegrationTest - Started IntegrationTest in 8.768 seconds (process running for 10.639)
+9727 [main] INFO  c.e.s.SpringExampleApplication - log info
+10718 [main] INFO  o.t.d.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+11091 [main] INFO  o.t.d.DockerClientProviderStrategy - Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+11091 [main] INFO  o.t.DockerClientFactory - Docker host IP address is localhost
+11130 [main] INFO  o.t.DockerClientFactory - Connected to docker: 
+  Server Version: 26.1.1
+  API Version: 1.45
+  Operating System: Docker Desktop
+  Total Memory: 7880 MB
+11174 [main] INFO  tc.testcontainers/ryuk:0.6.0 - Creating container for image: testcontainers/ryuk:0.6.0
+11505 [main] INFO  tc.testcontainers/ryuk:0.6.0 - Container testcontainers/ryuk:0.6.0 is starting: 075aabe0bcb500b58691dfe1baa86a66b2aef10b4c694fa2461ec6325fc834b5
+12011 [main] INFO  tc.testcontainers/ryuk:0.6.0 - Container testcontainers/ryuk:0.6.0 started in PT0.8362047S
+12018 [main] INFO  o.t.utility.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+12018 [main] INFO  o.t.DockerClientFactory - Checking the system...
+12019 [main] INFO  o.t.DockerClientFactory - ?? Docker server version should be at least 1.6.0
+12019 [main] INFO  tc.sergs82/socialnetwork-db:latest - Creating container for image: sergs82/socialnetwork-db:latest
+12084 [main] INFO  tc.sergs82/socialnetwork-db:latest - Container sergs82/socialnetwork-db:latest is starting: 7159a06a4baab290ba7d4e69abf0f82f5a7ec9a62ac933a5d094a34dab9f7c37
+15380 [main] INFO  tc.sergs82/socialnetwork-db:latest - Container sergs82/socialnetwork-db:latest started in PT3.3616016S
+15386 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+15386 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+15386 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+15401 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+15401 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+15417 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 16 ms
+15417 [main] INFO  c.e.springexample.test.TestEntity - SubscriptionDto
+15433 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+15433 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+15433 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+15433 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+15448 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+15448 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+15448 [main] INFO  c.e.springexample.test.TestEntity - POST
+15454 [main] INFO  c.e.springexample.test.TestEntity - AuthorDto(id=ssa_1, firstName=Иван, lastName=Иванов, mail=ivanov@gmail.com, phone=+79771111111, sex=M, city=Таганрог)
+15685 [main] INFO  c.e.springexample.test.TestEntity - AuthorDto(id=ssa_2, firstName=Пётр, lastName=Петров, mail=petrov@mail.ru, phone=+79162222222, sex=M, city=Сочи)
+15700 [main] INFO  c.e.springexample.test.TestEntity - AuthorDto(id=ssa_3, firstName=Сидр, lastName=Сидоров, mail=sidorov@ya.ru, phone=+7903333331, sex=M, city=Анапа)
+15707 [main] INFO  c.e.springexample.test.TestEntity - AuthorDto(id=ssa_5, firstName=Катерина, lastName=Иванова, mail=ivanova@list.ru, phone=+7903333333, sex=F, city=Геленжик)
+15715 [main] INFO  c.e.springexample.test.TestEntity - AuthorDto(id=ssa_4, firstName=Василий, lastName=Васин, mail=vasin_ya.ru, phone=+7903333332, sex=M, city=Геленжик)
+15721 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 23514
+15721 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - ERROR: new row for relation "author" violates check constraint "author_mail"
+  Подробности: Failing row contains (f, M, 23, Геленжик, Василий, Васин, vasin_ya.ru, +7903333332).
+15732 [main] INFO  c.e.springexample.test.TestEntity - AuthorDto(id=ssa_6, firstName=Хельга, lastName=Петров, mail=hpetrov_ya.ru, phone=+7903333334, sex=X, city=Париж)
+15739 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 23514
+15739 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - ERROR: new row for relation "author" violates check constraint "author_mail"
+  Подробности: Failing row contains (f, X, 24, Париж, Хельга, Петров, hpetrov_ya.ru, +7903333334).
+15753 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+15755 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15764 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

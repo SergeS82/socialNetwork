@@ -1,5 +1,6 @@
 package com.example.springexample.test;
 
+import com.example.springexample.dto.AuthorDto;
 import com.example.springexample.dto.lib.Dto;
 import com.example.springexample.dto.lib.DtoIdMixin;
 import com.example.springexample.entity.lib.Entity;
@@ -8,6 +9,8 @@ import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.jetbrains.annotations.NotNull;
 import org.junit.jupiter.api.Assertions;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
@@ -28,6 +31,7 @@ import java.nio.file.Paths;
 import java.util.*;
 
 public class TestEntity<N extends Entity, T extends Dto> {
+    private static final Logger logger = LoggerFactory.getLogger(TestEntity.class);
     private final File mapperFile;
     private final Map<String, String> mapping = new HashMap<>();
     private final ObjectMapper mapper;
@@ -73,34 +77,36 @@ public class TestEntity<N extends Entity, T extends Dto> {
     public void postAll(String url) throws IOException, IllegalAccessException {
         clearMapping();
         MockMvc mockMvc = MockMvcBuilders.webAppContextSetup(webApplicationContext).build();
-        for (var root : data.entrySet()) { //SubscriptionDto
-            for (var command : castToList(root.getValue())) { //array
-                for (var requests : castToMap(command).entrySet()) { //POST
-                    if (!requests.getKey().equals("POST")) { continue; }
-                    for (var request : castToMap(requests.getValue()).entrySet()) { //200
-                        for (T dto : castToListT(request.getValue())) {//Dto
-                            var oldId = dto.getId();
-                            String inContent = makeInContent(dto);
-                            ResultActions resultActions = null;
-                            try {
-                                resultActions = mockMvc.perform(MockMvcRequestBuilders
-                                        .post(url)
-                                        .contentType(MediaType.APPLICATION_JSON)
-                                        .content(inContent));
-                                String outContent = resultActions.andReturn().getResponse().getContentAsString(StandardCharsets.UTF_8);
-                                String newId = getNewId(outContent);
-                                addMapping(oldId, newId);
-                            } catch (Exception ex) {
-                            } finally {
-                                Assertions.assertEquals(request.getKey(), (resultActions != null) ? String.valueOf(resultActions.andReturn().getResponse().getStatus()) : "000");
-                            }
-                        }
+        for (var root : data.entrySet()) {
+            logger.info(root.getKey().toString()); //POST
+            if (!root.getKey().equals("POST")) {
+                continue;
+            }
+            for (var command : castToMap(root.getValue()).entrySet()) {
+                for (T dto : (List<T>) command.getValue()) {
+                    logger.info(dto.toString());
+                    var oldId = dto.getId();
+                    String inContent = makeInContent(dto);
+                    ResultActions resultActions = null;
+                    try {
+                        resultActions = mockMvc.perform(MockMvcRequestBuilders
+                                .post(url)
+                                .contentType(MediaType.APPLICATION_JSON)
+                                .content(inContent));
+                        String outContent = resultActions.andReturn().getResponse().getContentAsString(StandardCharsets.UTF_8);
+                        String newId = getNewId(outContent);
+                        addMapping(oldId, newId);
+                    } catch (Exception ex) {
+                    } finally {
+                        Assertions.assertEquals(command.getKey(), (resultActions != null) ? String.valueOf(resultActions.andReturn().getResponse().getStatus()) : "000");
                     }
                 }
             }
         }
+
         writeMapperToFile();
     }
+
     @SuppressWarnings("unchecked")
     private Map<String, Object> castToMap(Object obj) {
         if (obj instanceof Map<?, ?>) {
@@ -156,7 +162,7 @@ public class TestEntity<N extends Entity, T extends Dto> {
                 try {
                     fkClass = Class.forName(fkClassName);
                 } catch (ClassNotFoundException e) {
-                    throw new ClassCastException("Не найден класс: "+fkClassName);
+                    throw new ClassCastException("Не найден класс: " + fkClassName);
                 }
                 var mapping = Optional.ofNullable(fkMap.get(fkClass)).orElse(putAndReturnValue(fkMap, fkClass, mapingByClass(fkClass)));
                 if (mapping == null) {

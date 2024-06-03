@@ -10,11 +10,13 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.function.Executable;
 import org.mockito.Mockito;
+import org.springframework.test.context.ActiveProfiles;
 
 import java.util.Optional;
 
 import static org.mockito.Mockito.*;
 
+@ActiveProfiles("test")
 class AuthorCRUDServiceTest {
 
     AuthorRepository authorRepository;
